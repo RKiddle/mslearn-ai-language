@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/richard/ai-lang-rk/mslearn-ai-language/Labfiles/01-analyze-text/C-Sharp/C-Sharp.csproj": {}
+  },
+  "projects": {
+    "/home/richard/ai-lang-rk/mslearn-ai-language/Labfiles/01-analyze-text/C-Sharp/C-Sharp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/richard/ai-lang-rk/mslearn-ai-language/Labfiles/01-analyze-text/C-Sharp/C-Sharp.csproj",
+        "projectName": "C-Sharp",
+        "projectPath": "/home/richard/ai-lang-rk/mslearn-ai-language/Labfiles/01-analyze-text/C-Sharp/C-Sharp.csproj",
+        "packagesPath": "/home/richard/.nuget/packages/",
+        "outputPath": "/home/richard/ai-lang-rk/mslearn-ai-language/Labfiles/01-analyze-text/C-Sharp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/richard/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Azure.AI.TextAnalytics": {
+              "target": "Package",
+              "version": "[5.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.108/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PNM/V6BfiS2diP81DLK77032J5GC3dSZF7dLXc6PqE35y94DzNNZ1J9DIcpCgdYyWqw5Fff5VgBM4QI/nc2PYg==",
+  "dgSpecHash": "C7Ec8fSgfLXw/DAWEvIUVKGyeyVXmmmPQgowGwYZOR2g/B3JV44LK2tmvrubsrhW4G6AVhhx4t+64E/jD1kwGQ==",
   "success": true,
   "projectFilePath": "/home/richard/ai-lang-rk/mslearn-ai-language/Labfiles/05-custom-entity-recognition/C-Sharp/custom-entities/custom-entities.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,10 @@
     "/home/richard/.nuget/packages/microsoft.extensions.fileproviders.abstractions/3.1.3/microsoft.extensions.fileproviders.abstractions.3.1.3.nupkg.sha512",
     "/home/richard/.nuget/packages/microsoft.extensions.fileproviders.physical/3.1.3/microsoft.extensions.fileproviders.physical.3.1.3.nupkg.sha512",
     "/home/richard/.nuget/packages/microsoft.extensions.filesystemglobbing/3.1.3/microsoft.extensions.filesystemglobbing.3.1.3.nupkg.sha512",
-    "/home/richard/.nuget/packages/microsoft.extensions.primitives/3.1.3/microsoft.extensions.primitives.3.1.3.nupkg.sha512"
+    "/home/richard/.nuget/packages/microsoft.extensions.primitives/3.1.3/microsoft.extensions.primitives.3.1.3.nupkg.sha512",
+    "/home/richard/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/richard/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/richard/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.20/microsoft.netcore.app.host.linux-x64.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/dzq3Yv1kLBqqFdRa4d2cR/AvbsBLgyo9ioSEf5TyUdGUj6azH9k89N6MaoZBXo8OzTgDsyEakCDawB826MC4g==",
+  "dgSpecHash": "bgQyZF3cyIElv04BLZqGFwwIwLAUvdzFaTxC1jYMNyhfuN8F+9GaZz/RPYTMBaB4H0cah8BZswuIdtVQrN7Vnw==",
   "success": true,
   "projectFilePath": "/home/richard/ai-lang-rk/mslearn-ai-language/Labfiles/08-speech-translation/C-Sharp/translator/translator.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,10 @@
     "/home/richard/.nuget/packages/microsoft.extensions.fileproviders.abstractions/3.1.3/microsoft.extensions.fileproviders.abstractions.3.1.3.nupkg.sha512",
     "/home/richard/.nuget/packages/microsoft.extensions.fileproviders.physical/3.1.3/microsoft.extensions.fileproviders.physical.3.1.3.nupkg.sha512",
     "/home/richard/.nuget/packages/microsoft.extensions.filesystemglobbing/3.1.3/microsoft.extensions.filesystemglobbing.3.1.3.nupkg.sha512",
-    "/home/richard/.nuget/packages/microsoft.extensions.primitives/3.1.3/microsoft.extensions.primitives.3.1.3.nupkg.sha512"
+    "/home/richard/.nuget/packages/microsoft.extensions.primitives/3.1.3/microsoft.extensions.primitives.3.1.3.nupkg.sha512",
+    "/home/richard/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/richard/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/richard/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.20/microsoft.netcore.app.host.linux-x64.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }

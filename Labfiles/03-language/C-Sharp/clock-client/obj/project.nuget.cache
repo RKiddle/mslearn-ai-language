@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ex8HwLHJKsVQaG4qtOPkWSyPVl7ywI+8AwgYsrVUBDSoV1GxkTnJMIg+ceQAQZpwSVwmkm/aUSIzeOTvetarKg==",
+  "dgSpecHash": "zWQFhwr82Aj19nlKyROEqPRR/Px6yC0Xz2TOANc3uCbn0694XB0T1RLec6vccr3Az9bG9z/Phx/G2ku/uOoGWQ==",
   "success": true,
   "projectFilePath": "/home/richard/ai-lang-rk/mslearn-ai-language/Labfiles/03-language/C-Sharp/clock-client/clock_client.csproj",
   "expectedPackageFiles": [
@@ -21,7 +21,21 @@
     "/home/richard/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
     "/home/richard/.nuget/packages/system.text.encodings.web/4.7.2/system.text.encodings.web.4.7.2.nupkg.sha512",
     "/home/richard/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
-    "/home/richard/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "/home/richard/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "/home/richard/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/richard/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
+    "/home/richard/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.20/microsoft.netcore.app.host.linux-x64.7.0.20.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Newtonsoft.Json' 12.0.3 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }
