@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "zWQFhwr82Aj19nlKyROEqPRR/Px6yC0Xz2TOANc3uCbn0694XB0T1RLec6vccr3Az9bG9z/Phx/G2ku/uOoGWQ==",
+  "dgSpecHash": "DqWws04/bKIMAreizAbxGHlbDe4jCHBZtrXqZv0KNffYVSI/pZhBOuCMr573jTWklfl1B4abdmt/AlLsTlAROA==",
   "success": true,
   "projectFilePath": "/home/richard/ai-lang-rk/mslearn-ai-language/Labfiles/03-language/C-Sharp/clock-client/clock_client.csproj",
   "expectedPackageFiles": [
-    "/home/richard/.nuget/packages/azure.ai.language.conversations/1.0.0/azure.ai.language.conversations.1.0.0.nupkg.sha512",
+    "/home/richard/.nuget/packages/azure.ai.language.conversations/1.1.0/azure.ai.language.conversations.1.1.0.nupkg.sha512",
     "/home/richard/.nuget/packages/azure.core/1.33.0/azure.core.1.33.0.nupkg.sha512",
     "/home/richard/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/home/richard/.nuget/packages/microsoft.extensions.configuration/3.1.3/microsoft.extensions.configuration.3.1.3.nupkg.sha512",
@@ -22,9 +22,9 @@
     "/home/richard/.nuget/packages/system.text.encodings.web/4.7.2/system.text.encodings.web.4.7.2.nupkg.sha512",
     "/home/richard/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
     "/home/richard/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "/home/richard/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
     "/home/richard/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
-    "/home/richard/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.20/microsoft.netcore.app.host.linux-x64.7.0.20.nupkg.sha512"
+    "/home/richard/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.20/microsoft.netcore.app.host.linux-x64.7.0.20.nupkg.sha512",
+    "/home/richard/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512"
   ],
   "logs": [
     {
