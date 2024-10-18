@@ -3,6 +3,10 @@ using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
 
 // Import namespaces
+ // Import namespaces
+ using Microsoft.CognitiveServices.Speech;
+ using Microsoft.CognitiveServices.Speech.Audio;
+ using System.Media;
 
 
 namespace speaking_clock
@@ -21,6 +25,14 @@ namespace speaking_clock
                 string aiSvcRegion = configuration["SpeechRegion"];
 
                 // Configure speech service
+                // Configure speech service
+                speechConfig = SpeechConfig.FromSubscription(aiSvcKey, aiSvcRegion);
+                Console.WriteLine("Ready to use speech service in " + speechConfig.Region);
+                    
+                // Configure voice
+                speechConfig.SpeechSynthesisVoiceName = "en-US-AriaNeural";
+
+
 
 
                 // Get spoken input
@@ -43,10 +55,31 @@ namespace speaking_clock
             string command = "";
             
             // Configure speech recognition
+             // Configure speech recognition
+            using AudioConfig audioConfig = AudioConfig.FromDefaultMicrophoneInput();
+            using SpeechRecognizer speechRecognizer = new SpeechRecognizer(speechConfig, audioConfig);
+            Console.WriteLine("Speak now...");
+
 
 
             // Process speech input
-
+            // Process speech input
+            SpeechRecognitionResult speech = await speechRecognizer.RecognizeOnceAsync();
+            if (speech.Reason == ResultReason.RecognizedSpeech)
+            {
+                command = speech.Text;
+                Console.WriteLine(command);
+            }
+            else
+            {
+                Console.WriteLine(speech.Reason);
+                if (speech.Reason == ResultReason.Canceled)
+                {
+                    var cancellation = CancellationDetails.FromResult(speech);
+                    Console.WriteLine(cancellation.Reason);
+                    Console.WriteLine(cancellation.ErrorDetails);
+                }
+            }
 
             // Return the command
             return command;

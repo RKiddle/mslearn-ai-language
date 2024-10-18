@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "teA+DhOvUJO6vIcc8Z7zi/02b/zoHjTzuUI6UJPnb3VN7UgpuywSPdKGJaRfrhvcpTrnvuxfA1qWsN8Eq0bLeQ==",
+  "dgSpecHash": "1R57G37ObWVpLcWH6E0y26js8KXUAlCG70e7/JFSLsLolvKnKolNPxQEZuD1XOgwSpYmRaU0IqSWhC6pgXcxWA==",
   "success": true,
   "projectFilePath": "/home/richard/ai-lang-rk/mslearn-ai-language/Labfiles/07-speech/C-Sharp/speaking-clock/speaking-clock.csproj",
   "expectedPackageFiles": [
@@ -17,9 +17,9 @@
     "/home/richard/.nuget/packages/microsoft.win32.systemevents/4.6.0/microsoft.win32.systemevents.4.6.0.nupkg.sha512",
     "/home/richard/.nuget/packages/system.drawing.common/4.6.0/system.drawing.common.4.6.0.nupkg.sha512",
     "/home/richard/.nuget/packages/system.windows.extensions/4.6.0/system.windows.extensions.4.6.0.nupkg.sha512",
-    "/home/richard/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512",
     "/home/richard/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.20/microsoft.aspnetcore.app.ref.7.0.20.nupkg.sha512",
-    "/home/richard/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.20/microsoft.netcore.app.host.linux-x64.7.0.20.nupkg.sha512"
+    "/home/richard/.nuget/packages/microsoft.netcore.app.host.linux-x64/7.0.20/microsoft.netcore.app.host.linux-x64.7.0.20.nupkg.sha512",
+    "/home/richard/.nuget/packages/microsoft.netcore.app.ref/7.0.20/microsoft.netcore.app.ref.7.0.20.nupkg.sha512"
   ],
   "logs": []
 }
